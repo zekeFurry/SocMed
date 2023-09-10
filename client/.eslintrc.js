@@ -1,4 +1,5 @@
 module.exports = {
+    parser: '@babel/eslint-parser',
     // Specify the environments where your code will run
     env: {
       browser: true, // for browser-based projects
