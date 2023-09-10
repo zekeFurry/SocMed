@@ -11,5 +11,7 @@ module.exports = {
       // Example rules:
       "semi": ["error", "always"], // Enforce semicolons
       "indent": ["error", 2],     // Use 2 spaces for indentation
+      'react-hooks/rules-of-hooks': 'error',
+      'react-hooks/exhaustive-deps': 'warn',
     },
   };  
